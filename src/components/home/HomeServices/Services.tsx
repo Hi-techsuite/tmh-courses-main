@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { FC } from 'react'
 import Container from '@mui/material/Container'
-const Services = () => {
+const Services: FC = () => {
   return (
     <section className="Services_section">
       <Container maxWidth="lg">
@@ -21,7 +21,7 @@ const Services = () => {
               <img src="" alt="" className="Services_section_area_body_cont_icon" />
               <div className="Services_section_area_body_cont_title">A two days Live trading course pay 99.95$</div>
               <div className="Services_section_area_body_cont_para">
-                Start investing today from just $500 - that's 50% off our usual minimum deposit.
+                Start investing today from just $500 - thats 50% off our usual minimum deposit.
               </div>
             </div>
             <div className="Services_section_area_body_cont">

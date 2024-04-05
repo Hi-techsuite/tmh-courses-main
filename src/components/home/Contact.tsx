@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { FC } from 'react'
 import Container from '@mui/material/Container'
-const Contact = () => {
+const Contact: FC = () => {
   return (
     <section className="contact_section">
       <Container>
@@ -41,8 +41,8 @@ const Contact = () => {
                 <textarea
                   name=""
                   id=""
-                  cols="30"
-                  rows="10"
+                  cols={30}
+                  rows={10}
                   placeholder="Your Message"
                   className="contact_section_area_2_body_3_input"
                 ></textarea>

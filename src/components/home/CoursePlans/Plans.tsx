@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { FC } from 'react'
 import Container from '@mui/material/Container'
 import CheckIcon from '@mui/icons-material/Check'
 
-const Plans = () => {
+const Plans: FC = () => {
   return (
     <section className="PlansSection">
       <Container>

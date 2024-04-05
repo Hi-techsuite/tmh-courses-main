@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { FC } from 'react'
 import Container from '@mui/material/Container'
 
-const BookConsult = () => {
+const BookConsult: FC = () => {
   return (
     <section className="bookConsultSection">
       <Container maxWidth="lg">
