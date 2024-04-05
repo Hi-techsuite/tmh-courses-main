@@ -83,7 +83,7 @@ const HomeHero: FC = () => {
                       backgroundColor: 'unset',
                     }}
                   >
-                    Improve{' '}
+                    Learn{' '}
                     <Box
                       sx={{
                         position: 'absolute',
@@ -97,7 +97,7 @@ const HomeHero: FC = () => {
                       <img src="/images/headline-curve.svg" alt="Headline curve" />
                     </Box>
                   </Typography>
-                  your{' '}
+                  and{' '}
                   <Typography
                     component="span"
                     sx={{
@@ -113,7 +113,7 @@ const HomeHero: FC = () => {
                       },
                     }}
                   >
-                    Skill
+                    trade
                     <svg version="1.1" viewBox="0 0 3183 3072">
                       <g id="Layer_x0020_1">
                         <path
@@ -132,7 +132,7 @@ const HomeHero: FC = () => {
                     </svg>
                   </Typography>{' '}
                   <br />
-                  with Different Way
+                  with the experts.
                 </Typography>
               </Box>
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
@@ -149,8 +149,8 @@ const HomeHero: FC = () => {
                   </StyledButton>
                 </ScrollLink>
                 <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
-                  <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
-                    Watch Video
+                  <StyledButton color="primary" size="large" variant="outlined">
+                    Book Consultation
                   </StyledButton>
                 </ScrollLink>
               </Box>

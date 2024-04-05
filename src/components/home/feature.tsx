@@ -43,7 +43,7 @@ const HomeFeature: FC = () => {
           <Grid item xs={12} md={5}>
             <Box sx={{ position: 'relative' }}>
               <Image src="/images/home-feature.png" width={650} height={678} quality={97} alt="Feature img" />
-              <Box
+              {/* <Box
                 sx={{
                   position: 'absolute',
                   top: -36,
@@ -78,7 +78,7 @@ const HomeFeature: FC = () => {
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
                 </Box>
-              </Box>
+              </Box> */}
 
               <Box
                 sx={{
@@ -103,10 +103,14 @@ const HomeFeature: FC = () => {
                     flexDirection: 'column',
                   }}
                 >
-                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Lorem ipsum</Typography>
-                  <Typography variant="subtitle1" sx={{ mb: 1, color: 'text.disabled' }}>
-                    Lorem ipsum
+                  <Typography sx={{ fontWeight: 600, lineHeight: 1, mb: 2 }}>
+                    Course <br />
+                    Completion
                   </Typography>
+                  {/* <br /> */}
+                  {/* <Typography variant="subtitle1" sx={{ mb: 1, color: 'text.disabled' }}>
+                    Lorem ipsum
+                  </Typography> */}
                   <Box
                     sx={{
                       height: 85,
@@ -118,7 +122,7 @@ const HomeFeature: FC = () => {
                     }}
                   >
                     <Typography variant="h4" sx={{ color: '#32dc88' }}>
-                      75%
+                      95%
                     </Typography>
                     <CircularProgress
                       sx={{ position: 'absolute', color: 'divider' }}
@@ -131,7 +135,7 @@ const HomeFeature: FC = () => {
                       disableShrink
                       thickness={2}
                       variant="determinate"
-                      value={75}
+                      value={95}
                       size={85}
                       sx={{ transform: 'rotate(96deg) !important', color: '#32dc88', position: 'absolute' }}
                     />

@@ -1,0 +1,94 @@
+.PlansSection {
+  padding: 6em 0em;
+  position: relative;
+  background: #ecf3f3;
+}
+.PlansSection_area {
+  display: flex;
+  flex-direction: column;
+}
+.PlansSection_area_heading {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+}
+.PlansSection_area_body {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: flex-start;
+  gap: 20px;
+}
+.PlansSection_area_body_cont {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 100%;
+  padding: 1em;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.PlansSection_area_body_cont:hover {
+  box-shadow: 0px 10px 14px #00000014;
+  transition: all 0.3s linear;
+}
+.PlansSection_area_body_cont_img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+.PlansSection_area_body_cont_title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #495d5b;
+}
+.PlansSection_area_body_cont_Amount {
+  margin-top: 10px;
+  margin-bottom: 0.5em;
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 1.3;
+  color: #127c71;
+}
+.PlansSection_area_body_cont_Amount_slashed {
+  color: grey;
+  font-size: 24px;
+  text-decoration: line-through;
+}
+.PlansSection_area_body_cont_feautures {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 1em;
+}
+.PlansSection_area_body_cont_feautures_icon {
+  margin-right: 5px;
+  background: #127c71;
+  border-radius: 40px;
+  padding: 3px;
+  font-size: 20px !important;
+  color: #fff;
+}
+.PlansSection_area_body_cont_1 {
+  display: flex;
+  flex-direction: column;
+}
+.PlansSection_area_body_cont_para {
+  font-size: 14px;
+  color: grey;
+}
+.getStartedBtn {
+  padding: 20px 15px;
+  margin-top: 2em;
+  border-radius: 15px;
+  border: none;
+  background: #ffc221;
+  color: #2b2721;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.bookConsultSection {
+  padding: 6em 0em;
+  position: relative;
+  background: #127c71;
+  color: #fff;
+}
+.bookConsultSection_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.bookConsultSection_div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.7em;
+  font-size: 50px;
+  font-weight: 700;
+}
+.bookConsultSection_div1_para {
+  font-size: 18px;
+  font-weight: 300;
+  color: #d1ebe8;
+}
+.bookConsultSection_div2_btn {
+  padding: 20px 10px;
+  width: 200px;
+  border-radius: 14px;
+  border: none;
+  font-size: 14px;
+  background: #ffc221;
+  color: #4b3d19;
+  font-weight: 600;
+  cursor: pointer;
+}
