@@ -18,16 +18,14 @@ const Plans: FC = () => {
                 />
                 <div className="PlansSection_area_body_cont_title">Trading Essentials</div>
                 <div className="PlansSection_area_body_cont_para">
-                  {' '}
                   Embark on a journey to financial empowerment with our FREE comprehensive forex educational course!
                   Designed for beginners, this immersive experience spans over 2 hours, equipping you with the essential
                   knowledge to navigate the dynamic world of trading.
                 </div>
                 <div className="PlansSection_area_body_cont_Amount">
-                  {' '}
                   <div className="PlansSection_area_body_cont_Amount_slashed">$100</div> $9.95
                 </div>
-                <div className="what_you_learn">What you'll learn</div>
+                <div className="what_you_learn">What you&aposll learn</div>
                 <div className="PlansSection_area_body_cont_feautures">
                   <CheckIcon className="PlansSection_area_body_cont_feautures_icon" />
                   <div className="PlansSection_area_body_cont_feautures_txts">
@@ -65,7 +63,7 @@ const Plans: FC = () => {
                   {' '}
                   <div className="PlansSection_area_body_cont_Amount_slashed">$250</div> $99.95
                 </div>
-                <div className="what_you_learn">What you'll learn</div>
+                <div className="what_you_learn">What you&aposll learn</div>
                 <div className="PlansSection_area_body_cont_feautures">
                   <CheckIcon className="PlansSection_area_body_cont_feautures_icon" />
                   <div className="PlansSection_area_body_cont_feautures_txts">
@@ -97,17 +95,17 @@ const Plans: FC = () => {
                 <div className="PlansSection_area_body_cont_title">Market Maestro</div>
                 <div className="PlansSection_area_body_cont_para">
                   Get on top of your online course , Access to our trainings in the office. Features include all that is
-                  included in the above option + What You'll Learn.
+                  included in the above option + What You&aposll Learn.
                 </div>
                 <div className="PlansSection_area_body_cont_Amount">
                   {' '}
                   <div className="PlansSection_area_body_cont_Amount_slashed">$250</div> $99.95
                 </div>
-                <div className="what_you_learn">What you'll learn</div>
+                <div className="what_you_learn">What you&aposll learn</div>
                 <div className="PlansSection_area_body_cont_feautures">
                   <CheckIcon className="PlansSection_area_body_cont_feautures_icon" />
                   <div className="PlansSection_area_body_cont_feautures_txts">
-                    <span className="PlansSection_area_body_cont_feautures_span">Advanced Strategy Immersion:</span>{' '}
+                    <span className="PlansSection_area_body_cont_feautures_span">Advanced Strategy Immersion:</span>
                     Dive into sophisticated trading strategies designed for the intermediate trader, unlocking new
                     dimensions of profit potential.
                   </div>
@@ -115,7 +113,7 @@ const Plans: FC = () => {
                 <div className="PlansSection_area_body_cont_feautures">
                   <CheckIcon className="PlansSection_area_body_cont_feautures_icon" />
                   <div className="PlansSection_area_body_cont_feautures_txts">
-                    <span className="PlansSection_area_body_cont_feautures_span">Precision Technical Analysis: </span>{' '}
+                    <span className="PlansSection_area_body_cont_feautures_span">Precision Technical Analysis: </span>
                     Sharpen your technical analysis skills, utilizing advanced charting techniques and indicators to
                     make informed trading decisions
                   </div>
