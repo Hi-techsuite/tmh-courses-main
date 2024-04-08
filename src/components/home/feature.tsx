@@ -42,7 +42,13 @@ const HomeFeature: FC = () => {
         <Grid container spacing={3}>
           <Grid item xs={12} md={5}>
             <Box sx={{ position: 'relative' }}>
-              <Image src="/images/home-feature.png" width={650} height={678} quality={97} alt="Feature img" />
+              <img
+                src="/images/home-feature.png"
+                width={650}
+                height={678}
+                //  quality={97}
+                alt="Feature img"
+              />
               {/* <Box
                 sx={{
                   position: 'absolute',

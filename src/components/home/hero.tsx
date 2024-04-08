@@ -187,7 +187,13 @@ const HomeHero: FC = () => {
                   '& img': { width: '32px !important', height: 'auto' },
                 }}
               >
-                <Image src="/images/certificate.png" alt="Certificate icon" width={50} height={50} quality={97} />
+                <img
+                  src="/images/certificate.png"
+                  alt="Certificate icon"
+                  width={50}
+                  height={50}
+                  //  quality={97}
+                />
               </Box>
               <Box>
                 <Typography
@@ -202,7 +208,7 @@ const HomeHero: FC = () => {
               </Box>
             </Box>
             <Box sx={{ lineHeight: 0 }}>
-              <Image src="/images/home-hero.jpg" width={775} height={787} alt="Hero img" />
+              <img src="/images/home-hero.jpg" width={775} height={787} alt="Hero img" />
             </Box>
           </Grid>
         </Grid>
