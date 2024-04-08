@@ -3,6 +3,11 @@
   position: relative;
   background: #ecf3f3;
 }
+.what_you_learn {
+  margin-bottom: 1em;
+  font-size: 20px;
+  font-weight: 700;
+}
 .PlansSection_area {
   display: flex;
   flex-direction: column;
@@ -28,6 +33,7 @@
   border-radius: 1em;
   cursor: pointer;
   transition: all 0.3s linear;
+  justify-content: space-between;
 }
 .PlansSection_area_body_cont:hover {
   box-shadow: 0px 10px 14px #00000014;
@@ -65,6 +71,17 @@
   align-items: center;
   font-size: 14px;
   margin-bottom: 1em;
+}
+.PlansSection_area_body_cont_feautures_txts {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: #525252;
+}
+.PlansSection_area_body_cont_feautures_span {
+  font-weight: 900;
+  font-size: 14px;
+  color: #000;
 }
 .PlansSection_area_body_cont_feautures_icon {
   margin-right: 5px;

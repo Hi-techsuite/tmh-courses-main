@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import Container from '@mui/material/Container'
 const Services: FC = () => {
   return (
-    <section className="Services_section">
+    <section className="Services_section" id="services">
       <Container maxWidth="lg">
         <div className="Services_section_area">
           <div className="Services_section_area_1">
@@ -11,25 +11,49 @@ const Services: FC = () => {
           </div>
           <div className="Services_section_area_body">
             <div className="Services_section_area_body_cont">
-              <img src="" alt="" className="Services_section_area_body_cont_icon" />
-              <div className="Services_section_area_body_cont_title">Get a free book from Trade Minds Hub for free</div>
-              <div className="Services_section_area_body_cont_para">
-                Earn a long-term passive income with our fully managed investment portfolios.
+              <div className="Services_section_area_body_cont_body1">
+                <img src="/images/icon_services1.svg" alt="" className="Services_section_area_body_cont_icon" />
+                <div className="Services_section_area_body_cont_title">Enjoy 50% deposit bonus</div>
+                <div className="Services_section_area_body_cont_para">
+                  Sign up and fund your account with our preferred broker with just 99.95 USD and get an extra 50%
+                  deposit bonus.
+                </div>
               </div>
+              <button className="getStarted_btn">Get started</button>
             </div>
+            {/* ========= */}
+            {/* ========= */}
+            {/* ========= */}
+            {/* ========= */}
+            {/* ========= */}
+            {/* ========= */}
             <div className="Services_section_area_body_cont">
-              <img src="" alt="" className="Services_section_area_body_cont_icon" />
-              <div className="Services_section_area_body_cont_title">A two days Live trading course pay 99.95$</div>
-              <div className="Services_section_area_body_cont_para">
-                Start investing today from just $500 - thats 50% off our usual minimum deposit.
+              <div className="Services_section_area_body_cont_body1">
+                <img src="/images/icon_services2.svg" alt="" className="Services_section_area_body_cont_icon" />
+                <div className="Services_section_area_body_cont_title">Access VIP signals and mentorship</div>
+                <div className="Services_section_area_body_cont_para">
+                  Deposit a minimum 19.95$ get an access to over 8 hours of online education + 4 weeks of private
+                  tutoring in our office + access to our trading room + 3 months of accesses to our VIP signals room.
+                </div>
               </div>
+              <button className="getStarted_btn">Get started</button>
             </div>
+            {/* ========= */}
+            {/* ========= */}
+            {/* ========= */}
+            {/* ========= */}
+            {/* ========= */}
+            {/* ========= */}
             <div className="Services_section_area_body_cont">
-              <img src="" alt="" className="Services_section_area_body_cont_icon" />
-              <div className="Services_section_area_body_cont_title">Offline education available only for a month</div>
-              <div className="Services_section_area_body_cont_para">
-                Make money by investing in Bitcoin, Avalanche, Solana, Tether and other cryptocurrencies.
+              <div className="Services_section_area_body_cont_body1">
+                <img src="/images/icon_services3.svg" alt="" className="Services_section_area_body_cont_icon" />
+                <div className="Services_section_area_body_cont_title">Join Our Trading Room.</div>
+                <div className="Services_section_area_body_cont_para">
+                  One-on-one mentorship with one of our mentors 3 months access to our VIP Signal group Trade LIVE with
+                  our Quant Firm in Dubai.
+                </div>
               </div>
+              <button className="getStarted_btn">Get started</button>
             </div>
           </div>
         </div>

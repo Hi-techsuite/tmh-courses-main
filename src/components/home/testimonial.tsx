@@ -113,6 +113,7 @@ const HomeTestimonial: FC = () => {
               </Slider>
             </StyledSlickContainer>
           </Grid>
+<<<<<<< HEAD
           <Grid item xs={12} md={6} sx={{ display: { xs: 'none', md: 'block' } }}>
             <Box sx={{ width: { xs: '100%', md: '90%' } }}>
               <img
@@ -124,6 +125,19 @@ const HomeTestimonial: FC = () => {
               />
             </Box>
           </Grid>
+=======
+          <video
+            className="videoElement"
+            id="my-vidss"
+            muted
+            autoPlay
+            playsInline
+            loop
+            poster="https://trademindshub.com/files/use_case/trademindshub-testimony.mp4"
+          >
+            <source src="https://trademindshub.com/files/use_case/trademindshub-testimony.mp4" type="video/mp4" />
+          </video>
+>>>>>>> df9c85d5065f01964e48e3c4c1242708ca333b19
         </Grid>
       </Container>
     </Box>

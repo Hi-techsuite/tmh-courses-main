@@ -1,0 +1,126 @@
+.NeewHomeSection1 {
+  position: relative;
+  padding: 6em 0em;
+  padding-top: 10em;
+  background: #064c3f;
+  /* background: #001433; */
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.NeewHomeSection1_area_cont1_title_span {
+  color: #ffcf88;
+}
+.trade_options_section_area .tradingview-widget-container {
+  margin-top: 4em;
+  height: 500px !important;
+}
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+/* ================== */
+.newHero_Section {
+  position: relative;
+  /* height: 60em; */
+}
+
+.newHero_Section_hero_bg {
+  width: 100%;
+}
+
+.newHero_Section_darken_bg {
+  background: linear-gradient(45deg, black, transparent);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.newHero_Section_cont {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-top: 15em;
+  color: #fff;
+  z-index: 10;
+}
+
+.newHero_Section_cont_area {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.newHero_Section_cont_area_1 {
+  width: 100%;
+}
+.newHero_Section_cont_area_2 {
+  width: 100%;
+}
+
+.newHero_Section_cont_area_1_para {
+  margin-top: 1em;
+  line-height: 1.8;
+}
+.newHero_Section_cont_area_1_button_divs {
+  display: flex;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+.newHero_Section_cont_area_1_btn {
+  /* margin-top: 4em; */
+  width: 200px;
+  padding: 20px 15px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background: #127c71;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 2em;
+}
+.newHero_Section_cont_area_1_btnb {
+  /* margin-top: 4em; */
+  width: 200px;
+  padding: 20px 15px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background: #127c71;
+  font-weight: 600;
+  cursor: pointer;
+  /* margin-right: 2em; */
+}
+.newHero_Section_cont_area_1_btn_discount {
+  /* margin-top: 4em; */
+  width: 200px;
+  padding: 12px 15px;
+  border-radius: 15px;
+  border: none;
+  color: #ffc221;
+  background: #ffffff00;
+  font-weight: 600;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  font-size: 28px;
+}
+.css-1oqqzyl-MuiContainer-root {
+  height: 100% !important;
+}
+.css-623llx {
+  background: #0000008f !important;
+  margin-top: 5em !important;
+  padding: 20px 10px !important;
+}
+.newHero_Section_hero_img {
+  position: absolute;
+  z-index: 1;
+  right: 10%;
+  width: 35%;
+  bottom: 0;
+}

@@ -17,7 +17,7 @@ const Header: FC = () => {
     <Box sx={{ backgroundColor: 'background.paper', position: 'sticky', top: '0', zIndex: '1000' }}>
       <Container sx={{ py: { xs: 2, md: 3 } }}>
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <Logo />
+          <img src="/logo.png" alt="" className="HeaderLogo" />
           <Box sx={{ ml: 'auto', display: { xs: 'inline-flex', md: 'none' } }}>
             <IconButton onClick={() => setVisibleMenu(!visibleMenu)}>
               <Menu />
@@ -45,7 +45,8 @@ const Header: FC = () => {
           >
             <Box /> {/* Magic space */}
             <Navigation />
-            <AuthNavigation />
+            <button className="newHero_Section_cont_area_1_btn">Get Started</button>
+            {/* <AuthNavigation /> */}
             {visibleMenu && matchMobileView && (
               <IconButton
                 sx={{

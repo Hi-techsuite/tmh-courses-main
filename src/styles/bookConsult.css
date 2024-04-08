@@ -35,3 +35,65 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+.ConsultModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh;
+  background: #00000087;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+}
+.ConsultModal_div_title {
+  padding: 1em;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: solid 1px #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ConsultModal_div_title_icon {
+  font-size: 32px !important;
+  border: solid 1px grey;
+  border-radius: 7px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.ConsultModal_div_body {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.ConsultModal_div_body_input {
+  margin-bottom: 1em;
+  padding: 15px;
+  border: solid 1px #cdcdcd;
+  border-radius: 10px;
+}
+.ConsultModal_div_btn {
+  width: 70%;
+  margin: auto;
+  padding: 20px 15px;
+  border-radius: 12px;
+  border: none;
+  background: #127c71;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 2em;
+}
+.ConsultModal_div {
+  background: #fff;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+}
