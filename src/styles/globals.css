@@ -3,7 +3,31 @@
   --color-scrollbar: rgb(224, 224, 224);
   --color-scrollbar-hover: #bbb;
 }
-
+.css-a5rdam-MuiGrid-root > .MuiGrid-item {
+  padding-left: 8px;
+  text-align: center !important;
+  width: 100% !important;
+}
+#my-vidss {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.css-1ld3b9g-MuiGrid-root {
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.css-1jep6rt-MuiContainer-root {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.HeaderLogo {
+  width: 150px;
+}
+.footer_logo {
+  width: 100px;
+}
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -27,7 +51,14 @@ body {
   /* background-color: var(--color-background); */
   background-color: '#fff';
 }
-
+button {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  transform: translate3d(0, -5px, 0);
+  transition: 0.3s ease-in-out;
+}
 @-webkit-keyframes click_animation {
   from {
     -webkit-transform: scale(1);

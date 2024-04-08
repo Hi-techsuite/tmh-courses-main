@@ -1,5 +1,5 @@
 .Services_section {
-  background: #f2f5f5;
+  background: #ffffff;
   padding: 6em 0em;
   position: relative;
 }
@@ -28,18 +28,38 @@
   color: #5a6666;
 }
 .Services_section_area_body {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
   margin-top: 3em;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: flex-start;
+  grid-gap: 20px;
+  gap: 20px;
 }
 .Services_section_area_body_cont {
-  margin-right: 2em;
-  background: #fff;
+  margin-right: 0;
+  background: #f6f5f9;
   padding: 2em;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+.Services_section_area_body_cont_icon {
+  width: 150px;
+  margin-bottom: 2em;
+}
+.Services_section_area_body_cont_body1 {
+  display: flex;
+  flex-direction: column;
+}
+.getStarted_btn {
+  padding: 20px 15px;
+  border-radius: 20px;
+  border: none;
+  background: #127c71;
+  color: #fff;
+  margin-top: 4em;
 }
 .Services_section_area_body_cont_title {
   line-height: 1.2;

@@ -12,23 +12,21 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
-    icon: <ArtTrackIcon />,
-  },
-  {
-    title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
-    icon: <AttachMoneyIcon />,
-  },
-  {
-    title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Free e-books',
+    description:
+      '10 Free e-books covering various topics from stocks trading to commodities and crypto trading. Campaigns must be created around those and provided as a gimmick to clients',
     icon: <LocalLibraryIcon />,
   },
   {
-    title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
-    icon: <ContactSupportIcon />,
+    title: 'Prop trading',
+    description:
+      "We provide you with the best proprietary trading platform and the required training to start enjoying funded account and live the better live you've always wanted",
+    icon: <AttachMoneyIcon />,
+  },
+  {
+    title: 'AI Trading',
+    description:
+      'Master pros and cons of AI Trading, be ahead of your contemporaries. Either as a beginner or an experienced trader we have you covered.',
+    icon: <ArtTrackIcon />,
   },
 ]

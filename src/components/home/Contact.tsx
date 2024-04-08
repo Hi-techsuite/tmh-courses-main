@@ -17,14 +17,14 @@ const Contact: FC = () => {
 
             <div className="contact_section_area_1_cont1">
               <div className="contact_section_area_1_cont1_title">PHONES:</div>
-              <div className="contact_section_area_1_cont1_para">+2349062547147</div>
+              <div className="contact_section_area_1_cont1_para">+2348116106891 </div>
             </div>
 
             <hr />
 
             <div className="contact_section_area_1_cont1">
               <div className="contact_section_area_1_cont1_title">E-MAIL:</div>
-              <div className="contact_section_area_1_cont1_para">support@stma.io</div>
+              <div className="contact_section_area_1_cont1_para">support@Trademindshub.com</div>
             </div>
           </div>
           <div className="contact_section_area_2">

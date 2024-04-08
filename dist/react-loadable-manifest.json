@@ -1,70 +1,50 @@
 {
   "index.tsx -> ../components/home/BookConsult": {
-    "id": 9228,
+    "id": "index.tsx -> ../components/home/BookConsult",
     "files": [
-      "static/chunks/228.c51a90e29248d4e9.js"
+      "static/chunks/src_components_home_BookConsult_tsx.js"
     ]
   },
   "index.tsx -> ../components/home/Contact": {
-    "id": 6357,
+    "id": "index.tsx -> ../components/home/Contact",
     "files": [
-      "static/chunks/357.2ab2f77fea57bd5a.js"
+      "static/chunks/src_components_home_Contact_tsx.js"
     ]
   },
   "index.tsx -> ../components/home/CoursePlans/Plans": {
-    "id": 6522,
+    "id": "index.tsx -> ../components/home/CoursePlans/Plans",
     "files": [
-      "static/chunks/522.87ff67e545dd454d.js"
+      "static/chunks/src_components_home_CoursePlans_Plans_tsx.js"
     ]
   },
   "index.tsx -> ../components/home/HomeServices/Services": {
-    "id": 8168,
+    "id": "index.tsx -> ../components/home/HomeServices/Services",
     "files": [
-      "static/chunks/168.dda95dc86252d08d.js"
+      "static/chunks/src_components_home_HomeServices_Services_tsx.js"
+    ]
+  },
+  "index.tsx -> ../components/home/NewHero": {
+    "id": "index.tsx -> ../components/home/NewHero",
+    "files": [
+      "static/chunks/src_components_home_NewHero_tsx.js"
     ]
   },
   "index.tsx -> ../components/home/feature": {
-    "id": 4672,
+    "id": "index.tsx -> ../components/home/feature",
     "files": [
-      "static/chunks/675.6195e5d2cc19482d.js",
-      "static/chunks/672.28e60367908b3c02.js"
+      "static/chunks/src_components_home_feature_tsx.js"
     ]
   },
   "index.tsx -> ../components/home/hero": {
-    "id": 8470,
+    "id": "index.tsx -> ../components/home/hero",
     "files": [
-      "static/chunks/675.6195e5d2cc19482d.js",
-      "static/chunks/470.44ed01200584cbee.js"
-    ]
-  },
-  "index.tsx -> ../components/home/mentors": {
-    "id": 9536,
-    "files": [
-      "static/chunks/675.6195e5d2cc19482d.js",
-      "static/chunks/453.477716ae9c79d832.js",
-      "static/chunks/536.0a608550390b02a0.js"
-    ]
-  },
-  "index.tsx -> ../components/home/newsletter": {
-    "id": 7043,
-    "files": [
-      "static/chunks/43.1ba46ac360e4d4c8.js"
-    ]
-  },
-  "index.tsx -> ../components/home/popular-courses": {
-    "id": 613,
-    "files": [
-      "static/chunks/675.6195e5d2cc19482d.js",
-      "static/chunks/453.477716ae9c79d832.js",
-      "static/chunks/613.0a0e1c8070acbc4d.js"
+      "static/chunks/src_components_home_hero_tsx.js"
     ]
   },
   "index.tsx -> ../components/home/testimonial": {
-    "id": 4521,
+    "id": "index.tsx -> ../components/home/testimonial",
     "files": [
-      "static/chunks/675.6195e5d2cc19482d.js",
-      "static/chunks/453.477716ae9c79d832.js",
-      "static/chunks/521.5c992b7bdfdcd420.js"
+      "static/chunks/src_components_home_testimonial_tsx.js"
     ]
   }
 }

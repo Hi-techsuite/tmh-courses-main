@@ -10,19 +10,14 @@ const Footer: FC = () => {
     <Box component="footer" sx={{ backgroundColor: '#000', py: { xs: 6, md: 10 }, color: 'primary.contrastText' }}>
       <Container>
         <Grid container spacing={1}>
-          <Grid item xs={12} md={5}>
-            <Box sx={{ width: { xs: '100%', md: 360 }, mb: { xs: 3, md: 0 } }}>
-              <Typography component="h2" variant="h2" sx={{ mb: 2 }}>
-                Coursespace
-              </Typography>
+          <Grid item>
+            <Box sx={{ width: '100%' }}>
+              <img src="/logo_light.svg" alt="" className="footer_logo" />
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-                Coursespace is an online learning platform that has been operating since 2018 until now.
+                © Copyright 2024 - Trademindshub. All rights reserved.
               </Typography>
               <FooterSocialLinks />
             </Box>
-          </Grid>
-          <Grid item xs={12} md={7}>
-            <FooterNavigation />
           </Grid>
         </Grid>
       </Container>

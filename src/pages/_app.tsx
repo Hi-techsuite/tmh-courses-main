@@ -13,6 +13,7 @@ import '@/styles/services.css'
 import '@/styles/bookConsult.css'
 import '@/styles/plans.css'
 import '@/styles/contact.css'
+import '@/styles/newHero.css'
 import { NextPageWithLayout } from '@/interfaces/layout'
 // import 'slick-carousel/slick/slick-theme.css'
 
