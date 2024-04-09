@@ -43,7 +43,7 @@ const SliderArrow: FC<SliderArrowArrow> = (props) => {
   )
 }
 
-const StyledSlickContainer = styled('div')(() => ({
+const StyledSlickContainer: FC = styled('div')(() => ({
   position: 'relative',
 
   '& .slick-list': { marginLeft: '-30px', marginBottom: '24px' },
@@ -113,19 +113,6 @@ const HomeTestimonial: FC = () => {
               </Slider>
             </StyledSlickContainer>
           </Grid>
-<<<<<<< HEAD
-          <Grid item xs={12} md={6} sx={{ display: { xs: 'none', md: 'block' } }}>
-            <Box sx={{ width: { xs: '100%', md: '90%' } }}>
-              <img
-                src="/images/home-testimonial.png"
-                width={520}
-                height={540}
-                //  quality={97}
-                alt="Testimonial img"
-              />
-            </Box>
-          </Grid>
-=======
           <video
             className="videoElement"
             id="my-vidss"
@@ -137,7 +124,6 @@ const HomeTestimonial: FC = () => {
           >
             <source src="https://trademindshub.com/files/use_case/trademindshub-testimony.mp4" type="video/mp4" />
           </video>
->>>>>>> df9c85d5065f01964e48e3c4c1242708ca333b19
         </Grid>
       </Container>
     </Box>
